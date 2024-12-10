@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMIW: Trabajo Practico Final</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container py-4">
+        <div class="header-container mb-4">
+            <h1 class="mb-3">PMIW: Trabajo Practico Final</h1>
+        </div>
+
+        <header class="mb-4">
+            <div class="descripcion">
+                <p>
+                    Presentamos nuestro trabajo práctico final para PMIW. En éste, primero debíamos desarrollar una
+                    aventura gráfica basándonos en una película de animé, para luego desarrollar un juego interactivo.
+                    Elegimos Kiki´s Delivery Service porque nos daba la posibilidad de variar entre narrativas y finales
+                    alternativos, para así enriquecer la
+                    experiencia.
+                    <br>¡Sigan leyendo para saber más!
+                </p>
+            </div>
+        </header>
+
+        <aside class="sidebar mb-4">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Secciones
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#tematica">Información sobre la temática</a></li>
+                    <li><a class="dropdown-item" href="#contenedor-produccion">El proceso de producción</a></li>
+                    <li><a class="dropdown-item" href="#explorar1">Explora la primera parte del trabajo</a></li>
+                    <li><a class="dropdown-item" href="#explorar2">Explora la segunda parte del trabajo</a></li>
+                    <li><a class="dropdown-item" href="#equipo">Integrantes del equipo</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main>
+            <section id="tematica" class="contenedor-tematica">
+                <h2>Informacion sobre la tematica</h2>
+
+                <div class="text-center">
+                    <img src="img/kikiposter.png" alt="Kiki's Delivery Service Poster"
+                        class="img-fluid float-start me-3" style="max-width: 45%; height: auto;">
+                </div>
+
+                <p>
+                    <strong>Kiki’s Delivery Service</strong> (en japonés, <em>Majo no Takkyūbin</em>) es una película de
+                    animación japonesa dirigida por Hayao Miyazaki y producida por Studio Ghibli en 1989.
+                    Está basada en la novela homónima de Eiko Kadono y cuenta la historia de Kiki, una joven bruja de 13
+                    años que debe partir de su hogar para vivir un año de independencia como parte de su entrenamiento.
+                </p>
+                <p>
+                    Kiki llega a la ciudad costera de Koriko junto a su gato negro, Jiji, y decide abrir un servicio de
+                    mensajería a domicilio utilizando su escoba voladora.
+                    Durante la película, enfrenta desafíos como encontrar su lugar en la sociedad, adaptarse a su nueva
+                    vida y superar la pérdida temporal de su magia.
+                </p>
+                <p>
+                    En el camino, forma amistades importantes, como con Osono, una panadera que la ayuda a comenzar su
+                    negocio, y Tombo, un joven entusiasta de la aviación.
+                    La película equilibra temas de autodescubrimiento, independencia y crecimiento personal, enmarcados
+                    en un mundo lleno de encanto y magia cotidiana.
+                </p>
+                <p>
+                    El mensaje principal de la película resalta la importancia de la perseverancia, la confianza en uno
+                    mismo y la amistad, presentando una narrativa cálida y visualmente deslumbrante que ha encantado a
+                    audiencias de todas las edades.
+                </p>
+
+                <section id="contenedor-produccion" class="mb-5">
+                    <h2>El proceso de produccion</h2>
+
+                    <div class="d-flex flex-wrap">
+                        <!-- Card con el Diagrama de flujo -->
+                        <div class="custom-card">
+                            <div class="row g-0 card-content">
+                                <div class="col-md-12 d-flex justify-content-center">
+                                    <!-- Enlace clickeable para abrir la imagen en nueva pestaña -->
+                                    <a href="img/DdF.png" target="_blank">
+                                        <img src="img/DdF.png" class="custom-img" alt="Diagrama de flujo">
+                                    </a>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Una vez que nuestro diagrama de flujo fue aprobado, pudimos continuar con la
+                                            generación de nuestras imágenes hechas con IA, las cuales compondrían las
+                                            pantallas de nuestra aventura gráfica. A la derecha pueden observar algunas de ellas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                        <!-- Carrusel de imágenes -->
+                        <div id="carouselProduction" class="carousel slide" data-bs-ride="carousel"
+                            style="flex: 2; max-width: 800px; margin-left: 30px;">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/pantalla1.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla2.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla3.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla4.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla5.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 5">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla6.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 6">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla7.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 7">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla8.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 8">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla9.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 9">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla10.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 10">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla11.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 11">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla12.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 12">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla13.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 13">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/pantalla14.jpeg" class="d-block w-100 mx-auto" alt="Pantalla 14">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev control-personalizado-prev" type="button" data-bs-target="#carouselProduction" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon control-personalizado-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next control-personalizado-next" type="button" data-bs-target="#carouselProduction" data-bs-slide="next">
+                                <span class="carousel-control-next-icon control-personalizado-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>                            
+                        </div>
+                    </div>
+                </section>
+
+                <section id="explorar1">
+                    <div>
+                        <h2>Explora la primera parte del trabajo</h2>
+                        <iframe src="../tpfinalparte1/index.html" width="690" height="510" frameborder="0"></iframe>
+                    </div>                
+                </section>   
+
+                <section id="explorar2">
+                    <div>
+                        <h2>Explora la segunda parte del trabajo</h2>
+                        <p>
+                            Luego comenzamos con la segunda etapa en la cual tuvimos que implementar 
+                            objetos para crear nuestro videojuego Aliens vs Vacas
+                        </p>
+                        <iframe src="../tpfinalparte2/index.html" width="690" height="510" frameborder="0"></iframe>
+                    </div> 
+                </section>
+                
+                <section id="equipo" class="mb-5" style="clear: both;">
+                    <h2>Integrantes del equipo</h2>
+                    <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/fotobrenda.png" class="card-img-top" alt="Foto de Brenda Santilli"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Brenda Santilli </h5>
+                                <h5 class="card-title">85115/4 </h5>
+
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;"> 
+                            <img src="img/fotoalexia.png" class="card-img-top" alt="Foto de Alexia Roberts"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Alexia Roberts</h5>
+                                <h5 class="card-title">120361/2 </h5>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+    </section>
+
+
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

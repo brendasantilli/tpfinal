@@ -1,0 +1,177 @@
+body {
+    background-color: #A8BDBC; 
+    font-family: 'Arial', sans-serif;
+}
+
+@font-face {
+    font-family: 'HARRINGT' ;
+    src: url(/fuentes/HARRINGT.TTF);
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+h1 {
+    font-family:'HARRINGT';
+    font-size: 40px;
+    font-weight: bold;
+    color: #E57491; 
+}
+
+h2{
+    font-family:'HARRINGT';
+    font-size: 30px;
+    font-weight: bold;
+    color: #AC2F37; 
+}
+
+.sidebar {
+    border-radius: 5px;
+}
+
+.sidebar .dropdown-toggle {
+    background-color: #E57491;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.sidebar .dropdown-toggle:hover {
+    background-color: #c8677f; 
+    color: #fff; 
+}
+
+.sidebar .dropdown-menu {
+    background-color: #D4E0DB;
+    border: none;
+}
+
+.sidebar .dropdown-menu .dropdown-item {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar .dropdown-menu .dropdown-item:hover {
+    background-color: #A8BDBC; 
+    color: #fff;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333; 
+}
+
+.descripcion {
+    background-color: #D4E0DB; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contenedor-tematica, .contenedor-produccion, .contenedor-equipo {
+    background-color: #D4E0DB; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+iframe {
+    margin: 20px auto;
+    display: block;
+    width: 690px;
+    height: 510px; 
+}
+.header-container {
+    background-color: #3E6B89; 
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.custom-card {
+    flex: 1;
+    max-width: 600px;
+    height: auto;
+    background-color: #D4E0DB; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    margin: 10px auto; 
+}
+
+.custom-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    height: 100%;
+}
+
+
+.custom-img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.card-body {
+    padding-top: 10px;
+}
+
+.card-text {
+    font-size: 14px; 
+    line-height: 1.5;
+    color: #333;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #E57491; 
+}
+
+.control-personalizado-prev,.control-personalizado-next {
+    background-color: #E57491; 
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.control-personalizado-prev {
+    left: 10px;
+}
+
+.control-personalizado-next {
+    right: 10px; 
+}
+
+.control-personalizado-prev:hover,.control-personalizado-next:hover {
+    background-color: #c8677f; 
+}
+
+.control-personalizado-prev-icon,.control-personalizado-next-icon {
+    filter: invert(100%); 
+    width: 20px; 
+    height: 20px; 
+}
+
+.card {
+    background-color: #C29093;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-title {
+    font-family:'HARRINGT';
+    font-size: 30px;
+    color: #333;
+}
